@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARD Creations</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width: 393px) {
+            #product-details{
+                display: flex;
+                flex-direction: column;
+            }
+            #product-details .single-product-image{
+                width: 100%;
+            }
+            #product-details .single-product-details{
+                width: 100%;
+                padding: 30px;
+            }
+            #newsletter .form {
+                display: flex;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<section id="header">
+    <a href="index.html"><img src="img/logo.png" class="logo" alt="ARD Creations"></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button onclick="window.location.href='login-signup.html'" class="btnLogin-popup">Login</button>
+            </li>
+            <li><a id="lg-bag" href="cart.html"><i class="far fa-shopping-bag fa-2x"></i></a></li>
+            <a href="#" id="close"><i class="far fa-times fa-2x"></i></a>
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag fa-2x"></i></a>
+        <i id="bar" class="fas fa-outdent fa-2x"></i>
+    </div>
+</section>
+<section id="product-details" class="section-p1">
+    <div class="single-product-image">
+        <img src="img/products/f1.jpg" alt="" width="100%" id="Main-Image">
+        <div class="small-image-group">
+            <div class="small-image-column">
+                <img alt="" class="small-image" src="img/products/f1.jpg" width="100%">
+            </div>
+            <div class="small-image-column">
+                <img alt="" class="small-image" src="img/products/f2.jpg" width="100%">
+            </div>
+            <div class="small-image-column">
+                <img alt="" class="small-image" src="img/products/f3.jpg" width="100%">
+            </div>
+            <div class="small-image-column">
+                <img alt="" class="small-image" src="img/products/f4.jpg" width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="single-product-details">
+        <h6>Home / Shirt</h6>
+        <h4>Men's Fashion Shirt</h4>
+        <h2>₹424</h2>
+        <select>
+            <option>Select Size...</option>
+            <option>XS</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+            <option>XXL</option>
+            <option>XXXL</option>
+        </select>
+        <input type="number" value="1">
+        <button class="normal">Add to Cart</button>
+        <h4>Product Details</h4>
+        <span>This beautiful floral print dress is perfect for a casual day out. The soft, lightweight fabric is
+            comfortable to wear and the flattering fit will make you look and feel your best. The dress features
+            a V-neckline, short sleeves, and a gathered skirt. It is available in a variety of colors and sizes
+            to fit your needs.This beautiful floral print dress is perfect for a summer day. The soft, lightweight
+            fabric is comfortable to wear and the flattering fit will make you look and feel your best. The dress
+            features a V-neckline, short sleeves, and a gathered skirt. It is available in a variety of colors and
+            sizes to fit your needs.</span>
+    </div>
+</section>
+<section id="product1" class="section-p1">
+    <h2>Featured Products</h2>
+    <p>A new collection of modern dresses has arrived, perfect for any occasion.</p>
+    <div class="product-container">
+        <div class="product">
+            <img src="img/products/n1.jpg" alt="">
+            <div class="description">
+                <span>Own Product</span>
+                <h5>Tropical Abstract Printed Half Sleeve Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h4>₹424</h4>
+                </div>
+                <i class="fal fa-shopping-cart cart"></i>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/products/n2.jpg" alt="">
+            <div class="description">
+                <span>Own Product</span>
+                <h5>Tropical Abstract Printed Half Sleeve Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h4>₹424</h4>
+                </div>
+                <i class="fal fa-shopping-cart cart"></i>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/products/n3.jpg" alt="">
+            <div class="description">
+                <span>Own Product</span>
+                <h5>Tropical Abstract Printed Half Sleeve Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h4>₹424</h4>
+                </div>
+                <i class="fal fa-shopping-cart cart"></i>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/products/n4.jpg" alt="">
+            <div class="description">
+                <span>Own Product</span>
+                <h5>Tropical Abstract Printed Half Sleeve Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h4>₹424</h4>
+                </div>
+                <i class="fal fa-shopping-cart cart"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button class="normal">Sign Up</button>
+    </div>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="img/logo.png" alt="ARD Creations">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>VM8M+XCC, Thazhuthala, Kerala 691571</p>
+        <p><strong>Email: </strong>ardcreations@gmail.com</p>
+        <p><strong>Hours: </strong>10:00 - 18:00,Mon - Sat</p>
+    </div>
+    <div class="col install">
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="VISA, MasterCard, Maestro">
+    </div>
+    <div class="copyright">
+        <br>
+        <p>© 2023 ARD Creations. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+    var MainImage = document.getElementById('Main-Image');
+    var SmallImage = document.getElementsByClassName('small-image');
+
+    SmallImage[0].onclick = function (){
+        MainImage.src = SmallImage[0].src;
+    }
+    SmallImage[1].onclick = function (){
+        MainImage.src = SmallImage[1].src;
+    }
+    SmallImage[2].onclick = function (){
+        MainImage.src = SmallImage[2].src;
+    }
+    SmallImage[3].onclick = function (){
+        MainImage.src = SmallImage[3].src;
+    }
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
